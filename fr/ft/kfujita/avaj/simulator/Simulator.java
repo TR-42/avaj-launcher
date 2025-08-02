@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 
 public class Simulator {
   public static void main(String[] args) {
-    if (args.length == 0) {
+    if (args.length == 0 || args[0] == null || args[0].isEmpty()) {
       System.out.println("Usage: java Simulator <input file>");
       return;
     }
