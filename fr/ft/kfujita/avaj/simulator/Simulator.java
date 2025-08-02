@@ -1,4 +1,4 @@
-package ro.academyplus.avaj.simulator;
+package fr.ft.kfujita.avaj.simulator;
 
 import java.io.BufferedReader;
 import java.io.File;

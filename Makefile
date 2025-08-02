@@ -14,6 +14,6 @@ build:
 	@echo "Build complete."
 
 run:
-	java ro.academyplus.avaj.simulator.Simulator scenario.txt
+	java fr.ft.kfujita.avaj.simulator.Simulator scenario.txt
 
 .PHONY: prepare all run

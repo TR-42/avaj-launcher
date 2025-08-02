@@ -1,4 +1,4 @@
-package ro.academyplus.avaj.simulator;
+package fr.ft.kfujita.avaj.simulator;
 
 import java.util.ArrayList;
 import java.util.List;

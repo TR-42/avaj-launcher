@@ -1,4 +1,4 @@
-package ro.academyplus.avaj.simulator;
+package fr.ft.kfujita.avaj.simulator;
 
 public class WeatherProvider {
   private final String[] weather;
