@@ -14,10 +14,10 @@ public class Helicopter extends Aircraft {
   @Override
   protected String getMessage(final WeatherType weatherType) {
     return switch (weatherType) {
-      case RAIN -> "Blades spinning, rain winning. Who ordered the free shower?";
-      case FOG -> "Fog ahead! Time to trust the instruments and hope for the best.";
-      case SUN -> "Sun's out, rotors out! Let's make some wind.";
-      case SNOW -> "Snow swirling! Hope the rotors don't turn into snow cones.";
+      case RAIN -> "Rain is drumming on my blades—free percussion concert!";
+      case FOG -> "Fog ahead! My pilot's guessing, I'm just spinning.";
+      case SUN -> "Clear skies! Time to show off some aerial moves.";
+      case SNOW -> "Snow swirling around—looks like I'm flying inside a snow globe!";
     };
   }
 

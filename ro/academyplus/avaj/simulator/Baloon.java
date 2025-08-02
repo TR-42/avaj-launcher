@@ -14,10 +14,10 @@ public class Baloon extends Aircraft {
   @Override
   protected String getMessage(final WeatherType weatherType) {
     return switch (weatherType) {
-      case RAIN -> "Raindrops keep falling on my head... Hope this thing doesn't pop!";
-      case FOG -> "Can't see a thing! Is this cloud nine or just fog?";
-      case SUN -> "Up, up, and away! Perfect day for sightseeing from above.";
-      case SNOW -> "Snowflakes on my basket! Is this a flying igloo now?";
+      case RAIN -> "Raindrops are making my basket soggy! Hope I don't turn into a water balloon.";
+      case FOG -> "Floating blind! Is this a cloud or just really thick fog?";
+      case SUN -> "Soaking up the sunshine! I feel lighter already.";
+      case SNOW -> "Snowflakes everywhere! Maybe I'll land in a winter wonderland.";
     };
   }
 

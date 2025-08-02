@@ -14,10 +14,10 @@ public class JetPlane extends Aircraft {
   @Override
   protected String getMessage(final WeatherType weatherType) {
     return switch (weatherType) {
-      case RAIN -> "Cutting through the rain like a hot knife through butter!";
-      case FOG -> "Foggy runway? Good thing I fly faster than confusion.";
-      case SUN -> "Blue skies and jet engines—let's break the sound barrier!";
-      case SNOW -> "Snow on the wings? Let's hope for a speedy takeoff!";
+      case RAIN -> "Slicing through rain clouds—who needs windshield wipers at this speed?";
+      case FOG -> "Foggy up here! Good thing my radar isn't afraid of ghosts.";
+      case SUN -> "Sun's blazing! Perfect weather for breaking the sound barrier.";
+      case SNOW -> "Snowflakes zipping past—hope they don't freeze my engines!";
     };
   }
 
